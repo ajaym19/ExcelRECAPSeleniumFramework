@@ -1,0 +1,54 @@
+Project Notes
+
+Framework:
+-structure or guidelines or rules to build something
+
+Types:
+1. TDD >> Test Driven Development
+2. BDD >> Behavior Driven Development
+
+Design Patterns:
+1. Singleton
+2. Page Object Model >> POM : for every page in application there will be a corresponding class
+
+Loggers
+TestNG Reports
+Extent Reports
+Apache POI
+
+Project Folders:
+src/main/java : will contain the actual code
+src/main/resources: config or etc file
+
+src/test/java : will contain only the test cases
+src/test/resources: test data file
+
+Our Project:
+Build Tool: Maven
+Framework: TDD
+Design Pattern: POM
+CI/CD: Github and Jenkins
+
+Naming Conventions:
+package: reverse domain name, all in small
+class: Pascal case, Students, Teachers, LoginPage
+variables and methods: camel case >> id, studentId, isUserPresent
+
+Test Case
+	Knows - what we are testing, expected Output, how to compare
+	Doesnt Knows - what is the actual output and how to get the actual output
+	
+Code
+	Knows - how to get and return the expected output
+	Doesnt knows - what we are testing, expected Output, how to compare
+	
+
+
+
+
+
+
+
+
+
+
